@@ -14,8 +14,8 @@ const Button: FC<ButtonProps> = ({
     variant = 'default'
 }) => {
     const variantClasses = {
-        default: 'bg-transparent rounded-xl text-gray border-2',
-        primary: 'bg-offblack rounded-xl text-offwhite',
+        default: 'bg-transparent rounded-2xl text-gray border-2',
+        primary: 'bg-offblack rounded-2xl text-offwhite',
     }
 
     const sizeClasses = {
@@ -24,7 +24,7 @@ const Button: FC<ButtonProps> = ({
     }
 
     return (
-        <a href={href} className={`${variantClasses[variant]} ${sizeClasses[size]}`}>
+        <a href={href} className={`inline-flex ${variantClasses[variant]} ${sizeClasses[size]}`}>
             {children}
         </a>
     )
