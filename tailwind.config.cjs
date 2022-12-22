@@ -9,6 +9,7 @@ module.exports = {
     colors: {
       'white': '#ffffff',
       'black': '#000000',
+      'transparent': 'transparent',
       'offwhite': {
         'DEFAULT': 'hsl(0 0% 98%)',
       },

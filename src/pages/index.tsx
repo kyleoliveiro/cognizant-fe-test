@@ -1,6 +1,6 @@
 import { type NextPage } from "next";
 import Head from "next/head";
-import Link from "next/link";
+import Button from "../components/Button";
 
 const Home: NextPage = () => {
   return (
@@ -20,7 +20,7 @@ const Home: NextPage = () => {
             <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
           </div>
           <div>
-            <Link href="#">Learn more</Link>
+            <Button href="#" variant="primary" size="lg">Learn more</Button>
           </div>
         </div>
       </main>
