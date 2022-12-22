@@ -20,15 +20,18 @@ const Home: NextPage = () => {
           }} />
         </div>
 
-        <div className="space-y-3 text-center px-2">
-          <header>
+        <div className="text-center px-2">
+          <header className="mb-3">
             <h1 className="text-3xl font-700">Make remote work</h1>
           </header>
-          <div className="text-gray">
+          <div className="mb-6 text-gray">
             <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
           </div>
-          <div>
+          <div className="mb-9">
             <Button href="#" variant="primary" size="lg">Learn more</Button>
+          </div>
+          <div>
+            Logos
           </div>
         </div>
       </main>
