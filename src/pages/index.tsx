@@ -12,6 +12,14 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
+        <div className="mb-10">
+          <div style={{
+            backgroundImage: 'url(/images/hero/image-hero-mobile.png)',
+            backgroundSize: 'cover',
+            paddingBottom: `${564 / 750 * 100}%`,
+          }} />
+        </div>
+
         <div className="space-y-3 text-center px-2">
           <header>
             <h1 className="text-3xl font-700">Make remote work</h1>
