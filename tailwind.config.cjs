@@ -10,16 +10,13 @@ module.exports = {
       'white': '#ffffff',
       'black': '#000000',
       'offwhite': {
-        'DEFAULT': 'hsl(0, 0, 0.98)',
+        'DEFAULT': 'hsl(0 0% 98%)',
       },
       'offblack': {
-        'DEFAULT': 'hsl(0, 0, 0.08)',
+        'DEFAULT': 'hsl(0 0% 8%)',
       },
       'gray': {
-        'DEFAULT': 'hsl(0, 0, 0.41)',
-      },
-      'gray': {
-        'DEFAULT': 'hsl(0, 0, 0.41)',
+        'DEFAULT': 'hsl(0 0% 41%)',
       },
     },
     fontFamily: {
