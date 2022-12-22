@@ -4,7 +4,8 @@
 
 :root {
     @apply bg-white;
-    @apply font-body;
-    @apply text-base;
     @apply text-offblack;
+    @apply text-base;
+    @apply font-body;
+    @apply font-500;
 }
