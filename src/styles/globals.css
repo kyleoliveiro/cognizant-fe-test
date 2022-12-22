@@ -5,4 +5,6 @@
 :root {
     @apply bg-white;
     @apply font-body;
+    @apply text-base;
+    @apply text-offblack;
 }
