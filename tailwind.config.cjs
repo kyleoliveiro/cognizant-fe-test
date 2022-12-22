@@ -2,7 +2,33 @@
 module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    screens: {
+      'sm': '375px',
+      'lg': '1440px',
+    },
+    colors: {
+      'offwhite': {
+        'DEFAULT': 'hsl(0, 0, 0.98)',
+      },
+      'offblack': {
+        'DEFAULT': 'hsl(0, 0, 0.08)',
+      },
+      'gray': {
+        'DEFAULT': 'hsl(0, 0, 0.41)',
+      },
+    },
+    fontFamily: {
+      'body': ['Epilogue', 'sans-serif'],
+    },
+    fontWeight: {
+      '500': 500,
+      '700': 700,
+    },
+    extend: {
+      fontSize: {
+        'base': '1.125rem',
+      },
+    },
   },
   plugins: [],
 };
