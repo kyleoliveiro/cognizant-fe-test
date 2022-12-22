@@ -7,11 +7,16 @@ module.exports = {
       'lg': '1440px',
     },
     colors: {
+      'white': '#ffffff',
+      'black': '#000000',
       'offwhite': {
         'DEFAULT': 'hsl(0, 0, 0.98)',
       },
       'offblack': {
         'DEFAULT': 'hsl(0, 0, 0.08)',
+      },
+      'gray': {
+        'DEFAULT': 'hsl(0, 0, 0.41)',
       },
       'gray': {
         'DEFAULT': 'hsl(0, 0, 0.41)',
