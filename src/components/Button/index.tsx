@@ -24,7 +24,7 @@ const Button: FC<ButtonProps> = ({
     }
 
     return (
-        <a href={href} className={`inline-flex font-700 ${variantClasses[variant]} ${sizeClasses[size]}`}>
+        <a href={href} className={`inline-flex font-700 transition ${variantClasses[variant]} ${sizeClasses[size]}`}>
             {children}
         </a>
     )
