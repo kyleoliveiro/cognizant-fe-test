@@ -36,7 +36,7 @@ const NavItem: FC<NavItemProps> = ({
                 </div>
             </button>
             <div className={isOpened ? 'block' : 'hidden'}>
-                <ul className={`mt-5 pl-5 space-y-5 lg:absolute lg:w-40 lg:rounded-xl lg:shadow-lg lg:p-6 lg:bg-white lg:${menuAlign}-0`}>
+                <ul className={`mt-5 pl-5 space-y-5 lg:absolute lg:w-40 lg:rounded-xl lg:shadow-lg lg:p-6 lg:bg-white ${menuAlign}-0`}>
                     {children.map(child => (
                         <li key={child.text}>
                             <NavLink {...child} />
