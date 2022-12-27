@@ -1,8 +1,8 @@
 import Link from "next/link";
 import { FC, useEffect, useState } from "react";
 import { useScrollLock } from "../../hooks/useScrollLock";
-import NavMenu from "../NavMenu";
 import MenuToggle from "../MenuToggle";
+import NavMenu from "../NavMenu";
 
 const AppHeader: FC = () => {
     const [isNavOpened, setIsNavOpened] = useState<boolean>(false);

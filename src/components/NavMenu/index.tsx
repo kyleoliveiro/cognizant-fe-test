@@ -1,7 +1,6 @@
-import Link from "next/link";
 import { FC } from "react";
 import Button from "../Button";
-import NavItem, { NavItemProps } from '../NavItem'
+import NavItem, { NavItemProps } from '../NavItem';
 
 interface AppNavProps {
     items: NavItemProps[]
