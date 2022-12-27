@@ -1,6 +1,6 @@
-import { FC } from "react";
+import { type FC } from "react";
 import Button from "../Button";
-import NavItem, { NavItemProps } from '../NavItem';
+import NavItem, { type NavItemProps } from '../NavItem';
 
 interface AppNavProps {
     items: NavItemProps[]

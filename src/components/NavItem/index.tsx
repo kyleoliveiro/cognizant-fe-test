@@ -1,5 +1,5 @@
-import { FC, useState } from "react";
-import NavLink, { NavLinkProps } from "../NavLink";
+import { type FC, useState } from "react";
+import NavLink, { type NavLinkProps } from "../NavLink";
 
 export interface NavItemProps {
     text: string,

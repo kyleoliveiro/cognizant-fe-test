@@ -1,13 +1,13 @@
-import { FC } from "react";
+import { type FC } from "react";
 
 interface MenuToggleProps {
     opened?: boolean,
-    onClick?: Function,
+    onClick?: () => void,
 }
 
 const MenuToggle: FC<MenuToggleProps> = ({
     opened = false,
-    onClick = () => { },
+    onClick = () => null,
 }) => {
     return (
         <button
