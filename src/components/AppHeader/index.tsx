@@ -17,17 +17,18 @@ const AppHeader: FC = () => {
     }, [isNavOpened])
 
     return (
-        <nav className="p-4" aria-label="Navigation menu" role="navigation">
+        <nav className="p-4 lg:px-8" aria-label="Navigation menu" role="navigation">
             <div className="flex items-center justify-between">
                 <Link href="/">
                     <img src="/images/logo.svg" width={84} height={27} alt="Snap Logo" />
                 </Link>
 
-                <div className={isNavOpened ? 'block' : 'hidden'}>
+                <div className={`${isNavOpened ? 'block' : 'hidden'} lg:block flex-1`}>
                     <NavMenu
                         items={[
                             {
                                 text: 'Features',
+                                menuAlign: 'right',
                                 children: [
                                     {
                                         text: 'Todo List',
@@ -79,7 +80,7 @@ const AppHeader: FC = () => {
                         ]}
                     />
                 </div>
-                <div className="relative z-50">
+                <div className="relative z-50 lg:hidden">
                     <MenuToggle opened={isNavOpened} onClick={toggleMenu} />
                 </div>
             </div>

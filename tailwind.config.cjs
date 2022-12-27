@@ -27,6 +27,9 @@ module.exports = {
       '500': 500,
       '700': 700,
     },
+    boxShadow: {
+      'lg': '0 25px 50px 0px rgba(0, 0, 0, 0.25)'
+    },
     extend: {
       fontSize: {
         'base': '1.125rem',

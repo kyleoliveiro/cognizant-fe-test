@@ -25,7 +25,7 @@ const NavLink: FC<NavLinkProps> = ({
                         backgroundRepeat: 'no-repeat'
                     }} />
                 ) : (<></>)}
-                <div className="text-gray hover:text-offblack transition text-md leading-none mt-1">
+                <div className="text-gray hover:text-offblack transition text-md lg:text-sm">
                     {text}
                 </div>
             </div>

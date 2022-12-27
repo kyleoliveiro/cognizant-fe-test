@@ -17,7 +17,7 @@ const LogoList: FC<LogoListProps> = ({
     return (
         <ul className="grid grid-cols-4 gap-4">
             {items.map(item => (
-                <li className="flex items-center justify-center">
+                <li className="flex items-center justify-center" key={item.title}>
                     <img src={item.image} alt={item.title} height={item.height} width={item.width} />
                 </li>
             ))}
