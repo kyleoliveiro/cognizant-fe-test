@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { type FC } from "react";
 
 interface LogoListItem {
@@ -19,7 +18,7 @@ const LogoList: FC<LogoListProps> = ({
         <ul className="grid grid-cols-4 gap-4">
             {items.map(item => (
                 <li className="flex items-center justify-center" key={item.title}>
-                    <Image src={item.image} alt={item.title} height={item.height} width={item.width} />
+                    <img src={item.image} alt={item.title} height={item.height} width={item.width} />
                 </li>
             ))}
         </ul>

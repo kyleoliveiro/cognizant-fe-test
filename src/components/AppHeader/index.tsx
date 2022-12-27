@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import { type FC, useEffect, useState } from "react";
 import { useScrollLock } from "../../hooks/useScrollLock";
@@ -21,7 +20,7 @@ const AppHeader: FC = () => {
         <nav className="p-4 lg:px-8" aria-label="Navigation menu" role="navigation">
             <div className="flex items-center justify-between">
                 <Link href="/">
-                    <Image src="/images/logo.svg" width={84} height={27} alt="Snap Logo" />
+                    <img src="/images/logo.svg" width={84} height={27} alt="Snap Logo" />
                 </Link>
 
                 <div className={`${isNavOpened ? 'block' : 'hidden'} lg:block flex-1`}>
